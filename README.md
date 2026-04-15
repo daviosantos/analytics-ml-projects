@@ -58,23 +58,3 @@ ENTREZ_API_KEY=sua_chave_aqui_sem_aspas
 5. Execute o Jupyter Notebook:
 
 Abra o arquivo `Davi_pln_pubmed.ipynb` no Jupyter e execute todas as células.
-
-## ⚠️ Observações de Segurança
-- Não suba o arquivo `.env` para o GitHub.
-- O `.gitignore` já bloqueia o `.env`, ambientes virtuais e outros artefatos temporários.
-- Apenas o notebook `Davi_pln_pubmed.ipynb` está liberado para ser adicionado ao repositório.
-
-## ✅ Checklist de Padrão Ouro
-- [x] `.gitignore` configurado corretamente
-- [x] `.env.example` criado
-- [x] `requirements.txt` criado
-- [x] `README.md` criado
-- [x] Apenas `Davi_pln_pubmed.ipynb` exposto para commit
-
-## 💡 Próximos Passos
-- Verifique se o `.env` não está rastreado com `git status`
-- Adicione os arquivos selecionados com:
-```bash
-git add .gitignore .env.example requirements.txt README.md Davi_pln_pubmed.ipynb
-```
-- Faça o commit e o push para o GitHub.
