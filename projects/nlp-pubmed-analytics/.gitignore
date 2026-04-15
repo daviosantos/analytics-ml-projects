@@ -22,3 +22,6 @@ __pycache__/
 # Ignorar notebooks exceto o principal
 *.ipynb
 !Davi_pln_pubmed.ipynb
+
+# Arquivos de manutenção local
+patch_embedding_notebook.py
